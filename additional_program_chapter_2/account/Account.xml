@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bank>
+<account>
+ <acno>1111</acno>
+ <name>bob</name>
+ <addr>mumbai</addr>
+ <branch>dadar</branch>
+ <actype>savings</actype>
+ <bal>10000</bal>
+</account>
+<account>
+ <acno>2222</acno>
+ <name>sam</name>
+ <addr>satara</addr>
+ <branch>cbs</branch>
+ <actype>current</actype>
+ <bal>50000</bal>
+ </account>
+<account>
+ <acno>3333</acno>
+ <name>wiely</name>
+ <addr>nashik</addr>
+ <branch>mg road</branch>
+ <actype>current</actype>
+ <bal>76000</bal>
+</account>
+<account>
+ <acno>4444</acno>
+ <name>john</name>
+ <addr>pune</addr>
+ <branch>jm road</branch>
+ <actype>savings</actype>
+ <bal>16000</bal>
+</account>
+</bank> 

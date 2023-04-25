@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<college>
+<student>
+ <rno>1</rno>
+ <name>John</name>
+ <addr>PUNE</addr>
+ <collegename>Science College</collegename>
+ <course>BSC CS</course>
+</student>
+<student>
+ <rno>2</rno>
+ <name>Bob</name>
+ <addr>Mumbai</addr>
+ <collegename>Arts College</collegename>
+ <course>BA</course>
+</student>
+<student>
+ <rno>3</rno>
+ <name>Wiely</name>
+ <addr>Nashik</addr>
+ <collegename>Commerce</collegename>
+ <course>BCOM</course>
+</student>
+<student>
+ <rno>4</rno>
+ <name>Sam</name>
+ <addr>Satara</addr>
+ <collegename>Management College</collegename>
+ <course>BCA</course>
+</student>
+</college>

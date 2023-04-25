@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employee>
+ <emp>
+ <empno>111</empno>
+ <empname>John</empname>
+ <salary>10000</salary>
+ <designation>Accountant</designation>
+ </emp>
+ <emp>
+ <empno>120</empno>
+ <empname>Dane</empname>
+ <salary>15000</salary>
+ <designation>Asst. Manager</designation>
+ </emp>
+ <emp>
+ <empno>122</empno>
+ <empname>Wiely</empname>
+ <salary>17000</salary>
+ <designation>Manager</designation>
+ </emp>
+ <emp>
+ <empno>100</empno>
+ <empname>Robert</empname>
+ <salary>12000</salary>
+ <designation>Sr. Accountant</designation>
+ </emp>
+</employee> 
