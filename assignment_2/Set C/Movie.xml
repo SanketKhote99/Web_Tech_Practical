@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding ='UTF-8' ?>
+<MovieInfo>
+<Movie>
+<MovieNo>1</MovieNo>
+<MovieTitle>Pathaan</MovieTitle>
+<ActorName>Shah Rukh Khan</ActorName>
+<ReleaseYear>2023</ReleaseYear>
+</Movie>
+<Movie>
+<MovieNo>2</MovieNo>
+<MovieTitle>3 Idiots</MovieTitle>
+<ActorName>Aamir Khan</ActorName>
+<ReleaseYear>2009</ReleaseYear>
+</Movie>
+<Movie>
+<MovieNo>3</MovieNo>
+<MovieTitle>Life of Pi</MovieTitle>
+<ActorName>Suraj Sharma</ActorName>
+<ReleaseYear>2012</ReleaseYear>
+</Movie>
+<Movie>
+<MovieNo>4</MovieNo>
+<MovieTitle>Bhediya</MovieTitle>
+<ActorName>Varun Dhawan</ActorName>
+<ReleaseYear>2022</ReleaseYear>
+</Movie>
+<Movie>
+<MovieNo>5</MovieNo>
+<MovieTitle>War</MovieTitle>
+<ActorName>Hrithik Roshan</ActorName>
+<ReleaseYear>2019</ReleaseYear>
+</Movie>
+</MovieInfo>

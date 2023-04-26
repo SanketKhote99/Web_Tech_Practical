@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+ <item>
+ <ino>1</ino>
+ <iname>Dove</iname>
+ <desc>Soap</desc>
+ <iprice>55</iprice>
+ </item>
+ <item>
+ <ino>2</ino>
+ <iname>Iphone 6</iname>
+ <desc>Mobile</desc>
+ <iprice>65000</iprice>
+ </item>
+ <item>
+ <ino>3</ino>
+ <iname>T-Shirt</iname>
+ <desc>Apparel</desc>
+ <iprice>450</iprice>
+ </item>
+ <item>
+ <ino>4</ino>
+ <iname>Timex</iname>
+ <desc>Wrist Watch</desc>
+ <iprice>2500</iprice>
+ </item>
+ <ino>5</ino>
+ <iname>Air Jordan</iname>
+ <desc>Sneakers shoes</desc>
+ <iprice>25000</iprice>
+ </item>
+</product> 

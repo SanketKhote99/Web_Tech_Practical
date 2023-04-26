@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+ <book category="COOKING">
+ <code >02011</code>
+ <name lang="en">Everyday Italian</name>
+ <author>Giada De Laurentiis</author>
+ <year>2005</year>
+ <price>30.00</price>
+ </book>
+ <book category="CHILDREN">
+ <code >0156</code>
+ <name lang="en">Harry Potter</name>
+ <author>J K. Rowling</author>
+ <year>2005</year>
+ <price>29.99</price>
+ </book>
+ <book category="WEB">
+ <code >2017</code>
+ <name lang="en-us">XQuery Kick Start</name>
+ <author>James McGovern</author>
+ <year>2003</year>
+ <price>49.99</price>
+ </book>
+ <book category="WEB">
+ <code >5397</code>
+ <name lang="en-us">Learning XML</name>
+ <author>Erik T. Ray</author>
+ <year>2003</year>
+ <price>39.95</price>
+ </book>
+ </bookstore> 
