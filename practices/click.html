@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <script> 
+ function myFunction() 
+ { 
+ var x = "Hello " + document.getElementById("n1").value; 
+ document.getElementById("demo").innerHTML=x; 
+ } 
+ </script> 
+ </head> 
+ <body> 
+ <p>Enter your name and Click the button</p> 
+ <input type="text" name="name1" id="n1"> 
+ <button onclick="myFunction()">Click it</button> 
+ <p id="demo"></p> 
+ </body> 
+</html> 

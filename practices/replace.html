@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <script> 
+ function myFunction() 
+ { 
+ var str=document.getElementById("demo").innerHTML; 
+ var n=str.replace("Nirali Prakashan","Pragati"); 
+ document.getElementById("demo").innerHTML=n; 
+ } 
+ </script> 
+ </head> 
+ <body> 
+ <p>Click the button to replace "Nirali Prakashan" 
+ with "Pragati" in the paragraph below:</p> 
+ <p id="demo">Please visit Nirali Prakashan!</p> 
+ <button onclick="myFunction()">Click it</button> 
+ </body>

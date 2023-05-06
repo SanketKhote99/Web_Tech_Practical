@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <script> 
+ function myFunction() 
+ { 
+ var str=document.getElementById("p1").innerHTML; 
+ var n=str.indexOf("locate"); 
+ document.getElementById("p2").innerHTML=n+1; 
+ } 
+ </script> 
+ </head> 
+ <body> 
+ <p id="p1">Click the button to locate where "locate" 
+ first occurs.</p> 
+ <p id="p2">0</p> 
+ <button onclick="myFunction()">Click it</button> 
+ </body> 
+</html>
