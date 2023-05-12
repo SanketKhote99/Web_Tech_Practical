@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Membership Form</title>
+    <script>
+      function validateForm() {
+        let username = document.forms["membership-form"]["username"].value;
+        let password = document.forms["membership-form"]["password"].value;
+        
+        if (username === "") {
+          alert("Please enter a username");
+          return false;
+        }
+        
+        if (password === "") {
+          alert("Please enter a password");
+          return false;
+        }
+        
+        if (password.length < 8) {
+          alert("Password must be at least 8 characters long");
+          return false;
+        }
+        
+        return true;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Membership Form</h1>
+    
+    <form name="membership-form" onsubmit="return validateForm()">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      
+      <br><br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      
+      <br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

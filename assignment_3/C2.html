@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Remove Div Section with jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#remove-btn').click(function() {
+          $('#div-section').remove();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Remove Div Section with jQuery</h1>
+    
+    <div id="div-section">
+      <p>This is a div section.</p>
+      <p>It can contain any HTML elements.</p>
+    </div>
+    
+    <button id="remove-btn">Remove Div Section</button>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insert Text Before and After Image</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Insert Text Before and After Image</h1>
+    
+    <img src="https://via.placeholder.com/300x200" alt="Placeholder Image">
+    
+    <script>
+      $(document).ready(function() {
+        $('img').before('<p>This is some text before the image.</p>');
+        
+        $('img').after('<p>This is some text after the image.</p>');
+      });
+    </script>
+  </body>
+</html>

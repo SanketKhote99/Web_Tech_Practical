@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Append Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <h1>Append Example</h1>
+    
+    <p id="paragraph">This is a paragraph.</p>
+    
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ol>
+    
+    <button id="append-button">Append</button>
+    
+    <script>
+      $(document).ready(function() {
+        $('#append-button').click(function() {
+          $('#paragraph').append(' This is some new text.');
+          
+          $('ol').append('<li>Item 3</li>');
+        });
+      });
+    </script>
+  </body>
+</html>

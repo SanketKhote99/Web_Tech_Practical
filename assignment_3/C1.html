@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Name Input</title>
+    <style>
+      #image {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+    <script>
+      function handleNameInput() {
+        let nameInput = document.getElementById('name-input');
+        let name = nameInput.value.trim();
+        
+        if (name === '') {
+          let image = document.getElementById('image');
+          image.src = 'https://via.placeholder.com/150x150';
+          image.style.width = '150px';
+          image.style.height = '150px';
+          
+          image.onmouseenter = function() {
+            image.style.width = '200px';
+            image.style.height = '200px';
+          };
+          
+          image.onmouseleave = function() {
+            image.style.width = '150px';
+            image.style.height = '150px';
+          };
+          
+          image.onclick = function() {
+            image.style.width = '250px';
+            image.style.height = '250px';
+          };
+          
+          image.onmouseup = function() {
+            image.style.width = '150px';
+            image.style.height = '150px';
+          };
+        } else {
+          nameInput.style.color = 'red';
+          nameInput.style.fontSize = '18px';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Student Name Input</h1>
+    
+    <label for="name-input">Enter Student Name:</label>
+    <input type="text" id="name-input" onblur="handleNameInput()">
+    
+    <br><br>
+    
+    <img id="image" src="">
+  </body>
+</html>
