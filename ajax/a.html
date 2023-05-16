@@ -1,0 +1,42 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ var xmlHttp = false;
+ function validate(name)
+ {
+ if(window.XMLHttpRequest)
+ {
+ xmlHttp = new XMLHttpRequest();
+ }
+ else if(window.ActiveXObject)
+ {
+ xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+ }
+ if(xmlHttp==null)
+ {
+ alert("Browser does not support HTTP request");
+ return;
+ }
+ xmlHttp.open("GET", "a.php?name=" + name, true);
+ xmlHttp.onreadystatechange=stateChanged
+ xmlHttp.send(null);
+ } 
+ function stateChanged()
+ {
+ if(xmlHttp.readyState==4)
+ {
+ document.getElementById("res").innerHTML=xmlHttp
+ .responseText;
+ }
+ }
+ </script>
+ </head>
+ <body>
+ <form>
+ Username: <input type="text" name="name"
+onKeyUp="validate(this.value)" />
+ <div id="res"></div>
+ </form>
+ </body>
+</html>
+
